@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    font-family: "Poppins", sans-serif; 
 }
 
 a{
@@ -21,4 +22,65 @@ a:hover{
     display: flex;
     gap: 30px;
     justify-content: center;
+}
+.btn-primary{
+    padding: 15px 0px;
+}
+.primary-color{
+    color: red;
+}
+.table-responsive{
+    border-collapse: collapse;
+    width: 100%;
+    th, td{
+        border: 1px solid #dedede;
+        padding: 10px;
+        text-align: center;
+    }
+}
+
+/* Section hero */
+.section-hero{
+    background: orange;
+    background: url(Assets/mos-design-1VbC_MpB3zw-unsplash.jpg);
+    background-size: cover;
+    background-position: center center;
+    .caption{
+       display: flex;
+       flex-direction: column;
+       height: 100vh;
+       padding: 0px 80px;
+       justify-content: center;
+       text-align: center;
+       color: #fff;
+    }
+}
+
+/*section-media*/
+.section-media{
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    .media-image{
+        img{
+            width: 100%;
+        }
+    }
+
+    .media-video{
+        width: 500px;
+    }
+}
+
+/*Section-news*/
+.section-news{
+    padding: 50px;
+    .content-text{
+        column-count: 3;
+        column-gap: 30px;
+        column-width: 200px;
+        p{
+            margin: 0;
+        }
+    }
 }
