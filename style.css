@@ -83,4 +83,25 @@ a:hover{
             margin: 0;
         }
     }
+    .list-content{
+        li{
+            list-style: none;
+            color: #dedede;
+        }
+    }
+}
+.button-menu{
+    display: none;
+}
+@media (max-width: 768px) {
+    .button-menu{
+        display: block;
+        margin: 0;
+    }
+    .list-menu{
+        display: none;
+    }
+    .nav-menu{
+        background: #000;
+    }
 }
